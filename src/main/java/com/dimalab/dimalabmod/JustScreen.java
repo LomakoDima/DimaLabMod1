@@ -34,5 +34,6 @@ public class JustScreen extends Screen {
         Minecraft.getInstance().font.drawShadow(stack, new StringTextComponent("Работает, не так ли?"), 110, 30, 0xFFFFFF);
        // Minecraft.getInstance().font.drawShadow(stack, new StringTextComponent("Screen"), 100, 10, 0xFFFFFF);
         //Minecraft.getInstance().font.drawShadow(stack, 100, 100, new StringTextComponent("Just"), 0xFFFFFF);
+        super.render(stack, mouseX, mouseY, i_dont_know_ticks_navernoe);
     }
 }
